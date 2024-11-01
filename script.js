@@ -18,7 +18,7 @@ document.getElementById("connectBtn").addEventListener("click", async () => {
     await device.claimInterface(0);
 
     document.getElementById("message").textContent = "Connected to device: " + device.productName;
-    document.getElementById("sendDataBtn").disabled = false;
+    // document.getElementById("sendDataBtn").disabled = false;
   } catch (error) {
     document.getElementById("message").textContent = `Connection failed: ${error.message}`;
   }
