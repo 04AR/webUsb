@@ -1,11 +1,11 @@
 const cacheName = "pwa-serial-sensor-app-v1";
 const assets = [
   "/",
-  "/index.html",
-  "/script.js",
-  "/style.css",
-  "/manifest.json",
-  "/icon.png",
+  "index.html",
+  "script.js",
+  "style.css",
+  "manifest.json",
+  "icon.png",
 ];
 
 self.addEventListener("install", (event) => {
